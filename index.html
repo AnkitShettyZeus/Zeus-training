@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <h1 class="head">My first web page</h1>
+    <h3 class="gr">What this is</h3>
+    <p>
+      Welcome to my first webpage. I created this webpage without the assistance
+      of a webpage editor. Just my little text editor and a keen
+      <b><i>UNDERSTANDING OF HTML</i></b
+      >.
+    </p>
+    <h3 class="gr">Why this is</h3>
+    <ul class="red">
+      <li>To learn HTML</li>
+      <li>List element</li>
+      <ol>
+        <li>Home</li>
+        <li>FAQ</li>
+        <li>Contact</li>
+        <li>About</li>
+      </ol>
+
+      <li>Here I have created ordered and undordered list</li>
+    </ul>
+
+    <h3 class="gr">ZeusLearning.com</h3>
+    <a class="under" href="https://www.zeuslearning.com/" target="_blank"
+      >This link will open zeusLearning.com in new tab</a
+    >
+    <h3 class="gr">On click of following image navigate to Google.com</h3>
+    <p>
+      <a href="https://www.google.com/" target="_blank"
+        ><img
+          src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/3e/Google_2011_logo.png/1200px-Google_2011_logo.png"
+          alt="image"
+          width="100"
+          height="50"
+          class="image"
+      /></a>
+    </p>
+    <h3 class="grey">Some random table</h3>
+    <table class="ta">
+      <tr>
+        <td>Row 1,cell 1</td>
+        <td>Row 1,cell 2</td>
+        <td>Row 1,cell 3</td>
+      </tr>
+      <tr>
+        <td>Row 2,cell 1</td>
+        <td>Row 2,cell 2</td>
+        <td>Row 2,cell 3</td>
+      </tr>
+      <tr>
+        <td>Row 3,cell 1</td>
+        <td>Row 3,cell 2</td>
+        <td>Row 3,cell 3</td>
+      </tr>
+      <tr>
+        <td>Row 4,cell 1</td>
+        <td>Row 4,cell 2</td>
+        <td>Row 4,cell 3</td>
+      </tr>
+    </table>
+
+    <h3 class="grey">Some random form</h3>
+    <p>
+      <b><i>NOTE:</i></b> It look the part, but won't do a anything.
+    </p>
+    <form
+      name="from"
+      action="#"
+      onsubmit="return required()"
+      method="post"
+      required
+    >
+      <label for="name">Name:</label><br /><br />
+      <input type="text" name="name" placeholder="Your name" /><br /><br />
+      <label for="com">Comments:</label><br /><br />
+      <textarea
+        name="commment"
+        cols="30"
+        rows="10"
+        placeholder="Your comments"
+      ></textarea
+      ><br /><br />
+      <label for="gender">Are you:</label><br /><br />
+      <label> <input type="radio" name="male" /> Male</label><br /><br />
+
+      <label> <input type="radio" name="female" /> Female</label><br /><br />
+      <label><input type="submit" name="submit" value="Submit Query" /></label>
+
+      <!-- <button onclick="display()">Submit Query</button> -->
+    </form>
+    <script src="button.js"></script>
+  </body>
+</html>
